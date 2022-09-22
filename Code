@@ -194,9 +194,9 @@ String SendHTML(uint8_t linestatus,uint8_t lampstatus,uint8_t headstatus){
   ptr +="%</p></b></div>";
   ptr +="<div class=\"toplu\">\n";
   if(linestatus)
-  {ptr +="<a class=\"button climateoff\" href=\"/error\">Auto Moveing</a>\n";}
+  {ptr +="<a class=\"button error\" href=\"/error\">Auto Moveing</a>\n";}
   else
-  {ptr +="<a class=\"button climateon\" href=\"/automove\">Auto Move</a>\n";}
+  {ptr +="<a class=\"button automove\" href=\"/automove\">Auto Move</a>\n";}
   if(lampstatus)
   {ptr +="<a class=\"button lampoff\" href=\"/lampoff\">Turn Off Lamp</a>\n";}
   else
